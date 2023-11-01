@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+.choose_language {
+  margin: 30px auto;
+  display: table;
+ 
+}
+.choose_language  button  {
+  margin-left: 10px;
+  background-color: #009688;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+
+}
+.choose_language  button a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+.quez-app {
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  width: 70%;
+}
+.quez-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #fff;
+}
+.quez-app .quez-area {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 25px;
+}
+.quez-app .quez-area h2 {
+  font-size: 20px;
+}
+.quez-app .answers-area {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: -30px;
+}
+.quez-app .answers-area .answers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 15px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+.quez-app .answers-area .answers:not(:last-child) {
+  border-bottom: 1px solid #dfdfdf;
+}
+.quez-app .answers-area .answers input[type="radio"] {
+  accent-color: #0075ff;
+}
+.quez-app .answers-area .answers input[type="radio"]:checked + label {
+  color: #0075ff;
+}
+.quez-app .answers-area .answers label {
+  cursor: pointer;
+  color: #777;
+}
+.quez-app button {
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #0075ff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.quez-app button:focus {
+  outline: none;
+}
+.quez-app .bullets {
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 15px;
+  display: flex;
+}
+.quez-app .bullets .spans {
+  flex: 1;
+  display: flex;
+}
+.quez-app .bullets .spans span {
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 5px;
+}
+.quez-app .bullets .spans span.on {
+  background-color: #0075ff;
+}
+.quez-app .bullets .count-down {
+  flex: 1;
+  text-align: right;
+}
+.quez-app .results span {
+  font-weight: bold;
+}
+.quez-app .results span.bad {
+  color: #dc0a0a;
+}
+.quez-app .results span.good {
+  color: #009688;
+}
+.quez-app .results span.perfect {
+  color: #0076ff;
+}
+@media (max-width:767px) {
+  .quez-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .quez-area h2 {
+    line-height: 1.4;
+  }
+  .bullets {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+}

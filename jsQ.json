@@ -1,0 +1,75 @@
+[
+    {
+      "title": "What is the correct way to write a JavaScript array?",
+      "answer_1": "var colors = 'red', 'green', 'blue';",
+      "answer_2": "var colors = ['red', 'green', 'blue'];",
+      "answer_3": "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue');",
+      "answer_4": "var colors = (1:'red', 2:'green', 3:'blue');",
+      "right_answer": "var colors = ['red', 'green', 'blue'];"
+    },
+    {
+      "title": "What is the correct JavaScript syntax to write 'Hello World'?",
+      "answer_1": "System.out.println('Hello World');",
+      "answer_2": "print('Hello World');",
+      "answer_3": "response.write('Hello World');",
+      "answer_4": "document.write('Hello World');",
+      "right_answer": "document.write('Hello World');"
+    },
+    {
+      "title": "How do you call a function named 'myFunction'?",
+      "answer_1": "call myFunction()",
+      "answer_2": "call function myFunction()",
+      "answer_3": "myFunction()",
+      "answer_4": "invoke myFunction()",
+      "right_answer": "myFunction()"
+    },
+    {
+      "title": "How does a FOR loop start in JavaScript?",
+      "answer_1": "for (i = 0; i <= 5; i++)",
+      "answer_2": "for (i = 0; i <= 5)",
+      "answer_3": "for (i <= 5; i++)",
+      "answer_4": "for i = 1 to 5",
+      "right_answer": "for (i = 0; i <= 5; i++)"
+    },
+    {
+      "title": "How can you add a comment in a JavaScript?",
+      "answer_1": "//This is a comment",
+      "answer_2": "<!--This is a comment-->",
+      "answer_3": "'This is a comment",
+      "answer_4": "/*This is a comment*/",
+      "right_answer": "//This is a comment"
+    },
+    {
+      "title": "Which operator is used to assign a value to a variable?",
+      "answer_1": "X",
+      "answer_2": "*",
+      "answer_3": "-",
+      "answer_4": "=",
+      "right_answer": "="
+    },
+    {
+      "title": "What will the following code return: Boolean(10 > 9)",
+      "answer_1": "NaN",
+      "answer_2": "true",
+      "answer_3": "false",
+      "answer_4": "undefined",
+      "right_answer": "true"
+    },
+    {
+      "title": "JavaScript is the same as Java.",
+      "answer_1": "True",
+      "answer_2": "False",
+      "answer_3": "Maybe",
+      "answer_4": "Not Sure",
+      "right_answer": "False"
+    },
+    {
+      "title": "How do you round the number 7.25, to the nearest integer?",
+      "answer_1": "round(7.25)",
+      "answer_2": "rnd(7.25)",
+      "answer_3": "Math.round(7.25)",
+      "answer_4": "Math.rnd(7.25)",
+      "right_answer": "Math.round(7.25)"
+    }
+  ]
+  
